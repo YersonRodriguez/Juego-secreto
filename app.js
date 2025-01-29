@@ -68,7 +68,7 @@ function reiniciarJuego() {
     //indicar las condiciones para iniciar
     condicionesIniciales();
     //Deshabilitar el botón de nuevo juego
-    document.querySelector('#reiniciar').setAttribute('disabled', 'true');
+    document.getElementById('reiniciar').setAttribute('disabled', 'true')
     
 }
 
